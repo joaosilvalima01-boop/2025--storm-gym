@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=TASA+Explorer:wght@400..800&display=swap');
+
 :root{
-    --preto: #250902ff;
+--preto: #000000;
 --preto-2: #38040eff;
 --bordô: #640d14ff;
 --escarlate: #800e13ff;
 --vermelho: #ad2831ff;
+--texto: "TASA Explorer", sans-serif;
+--titulo: "Archivo Black", sans-serif;
 
 }
 
 body{
-    background-color: var(--preto);
+    background-color: var(--vermelho);
+    font-family: var(--texto);
 }
