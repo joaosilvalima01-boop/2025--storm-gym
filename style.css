@@ -6,6 +6,7 @@
 --bordô: #640d14ff;
 --escarlate: #800e13ff;
 --vermelho: #ad2831ff;
+--branco: #ffffffff;
 --texto: "TASA Explorer", sans-serif;
 --titulo: "Archivo Black", sans-serif;
 
@@ -14,4 +15,37 @@
 body{
     background-color: var(--vermelho);
     font-family: var(--texto);
+    margin: 0;
+}
+
+header{
+    background-color: var(--escarlate);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+} 
+
+.img-logo{
+    width: 15%;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+    font-size: 20px;
+    font-family: var(--titulo);
+    text-transform: uppercase ;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.menu a:hover{
+    color: var(--branco);
+    transition: 0.5s;
 }
