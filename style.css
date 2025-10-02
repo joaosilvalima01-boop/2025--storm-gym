@@ -49,3 +49,36 @@ header{
     color: var(--branco);
     transition: 0.5s;
 }
+
+.capa img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    }
+    
+    .capa img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    }
+    
+    .apresentacao{
+    font-family: var(--titulo);
+    text-align: center;
+    margin: 40px 0;
+    }
+
+    .apresentacao h2{
+        color: var(--branco);
+        font-size: 50px;
+    }
+
+    .apresentacao p{
+        color: var(--preto);
+        font-size: 25px;
+        font-family: var(--texto);
+    }
