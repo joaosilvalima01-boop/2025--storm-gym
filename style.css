@@ -115,7 +115,7 @@ header{
     }
 
     footer{
-        background-color: var(--branco);
+        background-color: var(--escarlate);
         height: 100px;
         display: flex;
         align-items: center;
